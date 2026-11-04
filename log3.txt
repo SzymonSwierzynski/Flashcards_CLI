@@ -1,0 +1,35 @@
+3 cards have been loaded
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+ask
+How many times to ask?
+3
+Print the definition of "Poland":
+warsaw
+Correct!
+Print the definition of "Russia":
+mOSCOW
+Correct!
+Print the definition of "Russia":
+moscow
+Correct!
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+remove
+Which card?
+Berlin
+There is no card like: Berlin
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+remove
+Which card?
+france
+The card: france has been removed
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+log
+File name:
+log3.txt
+The log has been saved
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+exit
+File name:
+abc.txt
+2 have been saved
+Bye bye!
