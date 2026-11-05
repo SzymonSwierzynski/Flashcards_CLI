@@ -30,3 +30,14 @@ A console application written in Java 21 for learning using flashcards, managing
 * **Build & Dependency Management:** Maven[cite: 43]
 * **Testing & Code Coverage:** JUnit 5 (5.10.2), Maven Surefire (3.6.0), JaCoCo (0.8.15)[cite: 43]
 * **Static Analysis & Security:** Checkstyle (12.1.1), PMD (7.28.0), SpotBugs (4.10.5.0) + FindSecBugs (1.14.0)[cite: 43]
+
+## Web UI
+
+A browser front end over the same `FlashCardService` and `FlashCardFileStorage`. It uses the JDK's built-in HTTP server, so it adds no dependencies.
+
+```bash
+mvn compile
+java -cp target/classes grid.projects.WebApp Capitals.txt
+```
+
+Open http://localhost:8080. The file argument is optional. If you give one, cards are loaded from it on start and saved back to it after every change. You can pass a port as the second argument. The server listens on localhost only.
